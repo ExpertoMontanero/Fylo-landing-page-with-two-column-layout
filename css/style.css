@@ -1,0 +1,106 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  margin: 0 4rem;
+  color: hsl(243, 87%, 12%);
+}
+
+@media screen and (max-width: 960px) {
+ body{
+  text-align: center;
+ }
+}
+
+h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 12rem 0;
+}
+
+.navbar-item {
+  text-decoration: none;
+  color: hsl(243, 87%, 12%);
+}
+
+.navbar-item {
+  margin-left: 3rem;
+}
+
+/* 1st main section */
+
+.row {
+  position: relative;
+}
+
+.folder-img {
+  width: 100%;
+  position: relative;
+  bottom: 6rem;
+
+  @media screen and (max-width: 960px) {
+    bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .img-section {
+    order: -1;
+    margin-top: 0;
+  }
+}
+
+
+.header-section {
+  @media screen and (max-width: 960px) {
+    margin-top: 3rem;
+  }
+}
+@media screen and (max-width: 960px) {
+  .sub-header-text{
+    margin-top: 3rem;
+  }
+}
+
+.mail-input {
+  width: 400px;
+  height: 50px;
+  margin-top: 1.5rem;
+  border-radius: 5px;
+  border-color: hsl(0, 0%, 75%);
+
+@media screen and (max-width:960px){
+  width:100%;
+}
+}
+
+::placeholder {
+  color: hsl(0, 0%, 75%);
+}
+
+.mail-input {
+  padding-left: 1rem;
+}
+
+.getstarted-button {
+  width: 250px;
+  height: 50px;
+  margin-left: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  background-color: hsl(224, 93%, 58%);
+  border-radius: 5px;
+}
+
+.getstarted-button:hover {
+  background-color: hsl(224, 89%, 65%);
+}
