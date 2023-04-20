@@ -1,14 +1,8 @@
 body {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  margin: 0 4rem;
+  margin: 0 8rem;
   color: hsl(243, 87%, 12%);
-}
-
-@media screen and (max-width: 960px) {
- body{
-  text-align: center;
- }
 }
 
 h1 {
@@ -22,10 +16,15 @@ p {
   font-size: 25px;
 }
 
+.background-img{
+ margin: 0 -8rem;
+  width: 115.5%;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
   margin: 3rem 0 12rem 0;
+  font-size: 1.3rem;
 }
 
 .navbar-item {
@@ -47,29 +46,6 @@ p {
   width: 100%;
   position: relative;
   bottom: 6rem;
-
-  @media screen and (max-width: 960px) {
-    bottom: 2rem;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  .img-section {
-    order: -1;
-    margin-top: 0;
-  }
-}
-
-
-.header-section {
-  @media screen and (max-width: 960px) {
-    margin-top: 3rem;
-  }
-}
-@media screen and (max-width: 960px) {
-  .sub-header-text{
-    margin-top: 3rem;
-  }
 }
 
 .mail-input {
@@ -78,10 +54,6 @@ p {
   margin-top: 1.5rem;
   border-radius: 5px;
   border-color: hsl(0, 0%, 75%);
-
-@media screen and (max-width:960px){
-  width:100%;
-}
 }
 
 ::placeholder {
@@ -103,4 +75,69 @@ p {
 
 .getstarted-button:hover {
   background-color: hsl(224, 89%, 65%);
+}
+
+
+/* MOBILE VIEW */
+
+@media screen and (max-width: 960px) {
+
+  body {
+    text-align: center;
+    margin: 0 2rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  /* Navbar section */
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0 7rem 0;
+  }
+
+  .navbar-item {
+    font-size: 15px;
+  }
+
+  .logo {
+    width: 25%;
+  }
+
+  .navbar-item {
+    margin-left: 1rem;
+  }
+
+  .sub-header-text {
+    margin-top: 3rem;
+  }
+
+  .header-section {
+    margin-top: 3rem;
+  }
+
+  .img-section {
+    order: -1;
+  }
+
+  .folder-img {
+    bottom: 2rem;
+  }
+
+  .mail-submit-section {
+    text-align: center;
+  }
+
+  .getstarted-button,
+  .mail-input {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
 }
