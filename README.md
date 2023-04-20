@@ -17,6 +17,7 @@ This is a solution to the [Intro section with dropdown navigation](https://www.f
 
 ### Screenshot
 
+![xd](https://user-images.githubusercontent.com/103272474/233478109-df9cba8e-deb6-40b0-98bb-7e79fb4db7b1.PNG)
 
 
 ### Links
