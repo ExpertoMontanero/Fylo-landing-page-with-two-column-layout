@@ -1,8 +1,14 @@
 body {
+  position: relative;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   margin: 0 8rem;
   color: hsl(243, 87%, 12%);
+}
+
+.background-image {
+  position: relative;
+  bottom: 30rem;
 }
 
 h1 {
@@ -12,14 +18,12 @@ h1 {
 }
 
 p {
+  margin-top: 2rem;
   font-family: 'Open Sans', sans-serif;
   font-size: 25px;
+
 }
 
-.background-img{
- margin: 0 -8rem;
-  width: 115.5%;
-}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -77,6 +81,107 @@ p {
   background-color: hsl(224, 89%, 65%);
 }
 
+/* 2nd main section */
+
+.background-bottom-section {
+  height: 150px;
+  background-image: url('/images/bg-curve-desktop.svg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: contain;
+  margin: 6rem -8rem 0 -8rem;
+}
+
+.bottom-section-container {
+  position: relative;
+  margin: 0 8rem 8rem;
+}
+
+#main-bottom-section {
+  background-color: hsl(240, 75%, 98%);
+  margin: 0 -8rem;
+}
+
+.people-img {
+  width: 100%;
+  position: relative;
+  top: 2rem;
+}
+
+.motiv-text-section {
+  padding-right: 3rem;
+}
+
+.see-how-link {
+  color: hsl(170, 45%, 43%);
+  line-height: 2;
+  font-size: 20px;
+}
+
+.see-how-link:hover {
+  color: hsl(170, 90%, 55%);
+}
+
+.arrow-icon {
+  height: 25px;
+}
+
+.opinion-box {
+  border-radius: 15px;
+  margin-top: 3rem;
+  width: 35rem;
+  height: 27rem;
+  background-color: white;
+  margin-bottom: 6rem;
+  box-shadow: 0px 0px 15px 2px hsl(0, 0%, 74%);
+}
+
+.inside-opinion-box {
+  padding: 1rem 2rem;
+  line-height: 2;
+  font-size: 22px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.avatar-img {
+  margin-top: 2.5rem;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.avatar-opinion {
+  display: flex;
+}
+
+.avatar-title {
+  margin: 0.5rem 0 0 1rem;
+}
+
+.avatar-name {
+  position: relative;
+  font-size: 18px;
+  top: 20px;
+}
+
+.avatar-lvl {
+  font-size: 15px;
+}
+
+/* Early acces section */
+
+#early-acces-section {
+  margin: -8rem;
+  background-color: hsl(238, 22%, 44%);
+}
+
+.early-acces-container {
+  padding-top: 6rem;
+  margin: 0 8rem;
+}
+
+.early-acces-text, .sub-early-acces-text {
+  color: white;
+}
 
 /* MOBILE VIEW */
 
@@ -115,6 +220,7 @@ p {
     margin-left: 1rem;
   }
 
+  /* 1st main content */
   .sub-header-text {
     margin-top: 3rem;
   }
@@ -140,4 +246,72 @@ p {
     width: 100%;
     margin: 0.5rem 0;
   }
+
+  /* 2nd main content */
+
+  .background-bottom-section {
+    position: relative;
+    height: 80px;
+    background-image: url('/images/bg-curve-mobile.svg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+    margin: 6rem -8rem 0 -8rem;
+    text-align: center;
+  }
+
+  .people-img-section {
+    order: -1;
+    margin-bottom: 6rem;
+  }
+
+  .motiv-text-section {
+    margin-top: 2rem;
+  }
+
+  .motiv-text-section {
+    padding: 0;
+  }
+
+  .bottom-sub-text {
+    text-align: start;
+  }
+
+  .opinion-box {
+    width: 85vw;
+    height: 310px;
+  }
+
+  .see-how-link {
+    font-size: 1rem;
+  }
+
+  .inside-opinion-box {
+    text-align: start;
+  }
+
+  .avatar-opinion {
+    position: relative;
+    bottom: 3rem;
+  }
+
+  .avatar-text {
+    font-size: 15px;
+
+  }
+
+  .avatar-name {
+    font-size: 10px;
+  }
+
+  .avatar-lvl {
+    margin-top: 1rem;
+    font-size: 10px;
+  }
+
+  .avatar-img {
+    width: 15%;
+    height: 15%;
+  }
+
 }
