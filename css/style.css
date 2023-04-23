@@ -154,13 +154,13 @@ p {
 }
 
 .avatar-title {
-  margin: 0.5rem 0 0 1rem;
+  margin: 0.8rem 0 0 1rem;
 }
 
 .avatar-name {
   position: relative;
   font-size: 18px;
-  top: 20px;
+  top: 38px;
 }
 
 .avatar-lvl {
@@ -239,7 +239,7 @@ p {
 
   body {
     text-align: center;
-    margin: 0 2rem;
+    margin: 0 3rem;
   }
 
   h1 {
@@ -347,7 +347,6 @@ p {
 
   .avatar-text {
     font-size: 15px;
-
   }
 
   .avatar-name {
