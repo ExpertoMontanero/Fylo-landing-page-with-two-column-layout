@@ -1,4 +1,5 @@
-# Frontend Mentor - intro-section-with-dropdown-navigation-main
+# Frontend Mentor:
+intro-section-with-dropdown-navigation-main
 
 This is a solution to the [Intro section with dropdown navigation](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5/hub). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
